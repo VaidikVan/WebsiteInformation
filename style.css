@@ -1,0 +1,116 @@
+#title {
+    font-family: Arial;
+}
+
+.container {
+    position: relative;
+    width: 700px;
+    height: 1500px;
+    padding: 10px;
+    border: 3px transparent #000000;
+    background-color: #ddd0a742;
+    left: 50%;
+    margin-left: -350px;
+    z-index: 10;
+}
+
+.container {
+    overflow: scroll;
+    overflow-x: auto;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+/* IMAGES */
+
+#rubyA {
+    max-height: auto;
+    max-width: 29.5%;
+    float: right;
+    padding-left: 25px;
+}
+
+#rubyB {
+    max-height: auto;
+    max-width: 29.5%;
+    float: right;
+    clear: right;
+    margin-top: 20px;
+}
+
+#annaA {
+    max-height: auto;
+    max-width: 31%;
+    float: right;
+    margin-left: 5px;
+}
+
+#migrationmap {
+    max-height: auto;
+    max-width: 30%;
+    float: right;
+    clear: right;
+}
+
+#beakA {
+    max-height: auto;
+    max-width: 31%;
+    float: right;
+    clear: right;
+}
+
+#tongueA {
+    max-height: auto;
+    max-width: 31%;
+    float: right;
+    clear: right;
+    padding-top: 75px;
+}
+
+#flightvideoA {
+    max-height: auto;
+    max-width: 31%;
+    float: right;
+    clear: right;
+}
+
+#rubyflightA {
+    max-height: auto;
+    max-width: 31%;
+    float: right;
+    clear: right;
+}
+
+/* LINES */
+
+hr {
+    width: 465px;
+    margin-left: 0;
+    color: #9a9a9a;
+    opacity: 0.5;
+}
+
+.vl {
+    border-left: 1px solid #9a9a9a;
+    height: 1000px;
+    position: absolute;
+    left: 67.5%;
+    top: 0;
+    opacity: 0.4;
+  }
+
+table {
+    width: 450px;
+  }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
